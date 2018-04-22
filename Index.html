@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<title>Website - Home</title>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<style>
+		body {
+        font-family: 'Roboto', serif;
+		text-align: center;
+		font-size: 35px;
+		color: #6B6B6B;
+		margin: 0;
+		padding: 200px 0;
+		background-image: url("background.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+}
+		
+</style>
+</head>
+<body>
+<img src="ZoomRidge.png" style="height:33%;width:33%;">
+<style>
+	input[type=text] {
+		display: inline-block;
+		margin-top: 0em;
+		width: 15%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		border: 2px solid #2B652D;
+		border-radius: 8px;
+		background-color: #C2C2C2;
+}
+	input[type=password] {
+		display: inline-block;
+		margin-top: 0em;
+		width: 15%;
+		padding: 12px 20px;
+	    margin: 8px 0;
+		border: 2px solid #2B652D;
+		border-radius: 8px;
+		background-color: #C2C2C2;
+}
+	input[type=submit] {
+		width: 10%;
+		background-color: #3B883E;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+}
+
+	input[type=submit]:hover {
+		background-color: #2B652D;
+}
+
+</style>
+<form action="/passwords.php">
+Username<br><input type="text" name="Username"><br>
+Password<br><input type="password" name="Password"><br>
+<input type="submit" value="Login">
+
